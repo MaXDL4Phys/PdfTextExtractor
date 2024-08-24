@@ -48,6 +48,14 @@ After updating the script:
 
 	1.	Place your PDF file in the working directory.
 	2.	Adjust the pdf_path variable to point to your PDF file.
+
+```bash
+pdf_path = 'your_file.pdf' #<--set the correct pdf file path
+# Save the extracted text to a .txt file
+with open('extracted_text.txt', 'w', encoding='utf-8') as   text_file:
+    text_file.write(text) #<--extracted_text.txt set the correct txt file name
+```
+
 	3.	Run the script:
 
 ```bash
